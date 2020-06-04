@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;margin:0;
+}
+
+body
+{ 
+	height:auto;
+	width:1440px;
+	background:#0C122C;
+}
+
+/**************************************************/
+body .attribution
+{
+	position:absolute;
+	bottom:20px;
+	color:#fff;
+	font-size: 20px;
+	left:340px;
+}
+body .attribution i
+{
+	color:#f00;
+	font-size:25px;
+}
+body .attribution a 
+{
+	color:#fff;
+	text-decoration: none;
+}
+/*********************************************************************************/
+
+
+
+.content 
+{
+	font-family: 'Raleway', sans-serif;
+	width: 1440px;
+	height:420px;
+	top:376px;
+	background: url("../images/bg-desktop.svg") no-repeat ;
+			
+}
+/********************************************************************/
+  .content  .left
+{
+	position: absolute;
+	top:330px;
+	left:990px;
+	z-index: 2;
+}
+	.content .left .ribbon
+{
+	position: relative;
+	background: #fff;
+	margin: #f50;
+	width:180px;
+	height:70px;
+	border-radius: 10px 
+}
+.content .left .ribbon .text
+{
+     position:absolute;
+	 top:10px;
+	left:25px;
+}
+.content .left .ribbon .text p
+{
+	color:#333;
+	font-weight: 400;
+	font-size: 15px;
+}
+.content .left .ribbon .text span
+{
+	color:#000;
+	text-align: center;
+	font-weight: 700;
+	z-index: 3;
+	font-size: 40px;
+}
+
+.content .left .ribbon .ribbon_border
+{
+	position: absolute;
+	top:5px;
+	left:100px;
+	float:right;
+	height:0px;
+	width:0px;
+	border:50px  solid transparent;
+	border-right: 30px solid #fff;
+}
+
+
+
+/*****************************************************************/
+.content .fylo
+{
+	
+	position: absolute;
+    overflow: hidden;
+	top:320px;
+	left:270px;
+	height:200px;
+	width:350px;
+	background: #1E2C69;
+	border-radius: 10px 100px 10px 10px;
+	
+}
+.content .fylo .logo
+{
+	margin-left: 40px;
+}
+.content .fylo .logo img
+{
+	padding:30px 20px;
+}
+.content .fylo .nav
+{
+	margin-top:2%;
+	margin-left: 40px;
+}
+.content .fylo .nav ul
+{
+	list-style: none;
+}
+.content .fylo .nav ul li 
+{
+	float:left;
+	display:inline;
+	background: #090F29;
+	padding:15px;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+
+.content .fylo .nav ul li img
+{
+ height:20px;
+ width:20px;
+}
+/***********************************************************/
+.content .balance
+
+{
+	
+	position: absolute;
+    overflow: hidden;
+	top:365px;
+	left:655px;
+	height:155px;
+	width:550px;
+	background: #1E2C69;
+	border-radius: 15px;
+	
+}
+.content .balance p
+{
+	margin-left: 50px;
+	margin-top: 45px;
+	color:#fff;
+	font-weight: 400;
+	
+}
+/********************************************************************/
+  
+/************************************************************************/
+
+.content .balance .progress
+{
+	position:absolute;
+	bottom:60px;
+	left:50px;
+	background:hsl(229, 57%, 11%);
+	height:20px;
+	width:450px;
+	border-radius: 18px;
+	
+}
+.content .balance .progress  span
+{
+	position:absolute;
+	top:3px;
+	left:2px;
+	height:15px;
+	width:340px;
+	background: hsl(6, 100%, 80%);
+	border-radius: 18px;
+	
+}
+.content .balance .gb
+{
+	position: absolute;
+	left:385px;
+	bottom:25px;
+	
+}
+.content .balance .gb p
+{
+	font-weight: 600px;
+}
+/****************************************************************************************************/
+

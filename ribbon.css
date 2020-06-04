@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	
+	background: #f80;
+}
+.ribbon
+{
+	position: relative;
+	background: #fff;
+	margin: #f50;
+	width:180px;
+	height:70px;
+	border-radius: 10px 
+}
+.ribbon .ribbon_border
+{
+	position: absolute;
+	top:5px;
+	left:100px;
+	float:right;
+	height:0px;
+	width:0px;
+	border:50px  solid transparent;
+	border-right: 30px solid #fff;
+}
